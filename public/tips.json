@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "💧 Watering",
+        "description":
+            "Water only when the top inch of soil feels dry. Avoid overwatering to prevent root rot.",
+        "image": "https://i.ibb.co.com/sdJDcDsx/watering-plant.png",
+        "color": "bg-green-100"
+    },
+    {
+        "id": 2,
+        "title": "☀️ Sunlight",
+        "description":
+            "Most indoor plants love bright but indirect sunlight. Avoid harsh direct sun exposure.",
+        "image": "https://i.ibb.co.com/Wvx45t7x/sunlight-plant.png",
+        "color": "bg-yellow-100"
+    },
+    {
+        "id": 3,
+        "title": "🌿 Fertilizing",
+        "description":
+            "Feed your plants with organic fertilizer once a month during the growing season.",
+        "image": "https://i.ibb.co.com/8DTVtHH2/fertilizer.png",
+        "color": "bg-lime-100"
+    },
+    {
+        "id": 4,
+        "title": "🌬️ Air & Space",
+        "description":
+            "Ensure good air circulation around your plants to keep them healthy and pest-free.",
+        "image": "https://i.ibb.co.com/rRLkZf1Q/air-space.png",
+        "color": "bg-sky-100"
+    },
+    {
+        "id": 5,
+        "title": "🌸 Pruning",
+        "description":
+            "Remove dead leaves and faded blooms regularly to encourage new growth.",
+        "image": "https://i.ibb.co.com/FpQZTH8/pruning.png",
+        "color": "bg-pink-100"
+    },
+    {
+        "id": 6,
+        "title": "🌡️ Temperature",
+        "description":
+            "Keep plants in a moderate temperature range (18°C–26°C). Avoid placing them near heaters or air conditioners.",
+        "image": "https://i.ibb.co.com/yCDBSzc/temperature-plant.png",
+        "color": "bg-orange-100"
+    }
+]

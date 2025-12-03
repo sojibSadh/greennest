@@ -1,0 +1,16 @@
+{
+    "name": "Monstera Deliciosa",
+    "nickname": "The Swiss Cheese Plant",
+    "price": 45,
+    "rating": 4.9,
+    "image": "https://i.ibb.co.com/Wh3QVJ4/1.png",
+    "description":
+      "Monstera Deliciosa is a tropical beauty loved for its large, glossy, hole-filled leaves. It brings a lush jungle vibe to any room and purifies the air naturally.",
+    "care": [
+      "💧 Water once a week when the top soil feels dry.",
+      "☀️ Keep in bright, indirect sunlight.",
+      "🌿 Wipe leaves regularly to remove dust.",
+      "🌡️ Maintain room temperature between 18–28°C."
+    ],
+    "provider": "UrbanGreen Studio"
+  }
