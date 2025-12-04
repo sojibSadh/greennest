@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const MainLayout = () => {
     return (
-        <div className="flex flex-col min-h-screen bg-green-50">
+        <div className="flex flex-col min-h-screen bg-[#171e33]/30">
             {/* Navbar */}
             <Navbar />
 

@@ -8,6 +8,9 @@ import Signup from "../pages/Signup";
 import Profile from "../pages/Profile";
 import PrivateRoute from "../auth/PrivateRoute";
 import ErrorPage from "../pages/ErrorPage";
+import Support from "../pages/Support";
+import Contact from "../pages/Contact";
+import About from "../pages/About";
 
 export const router = createBrowserRouter([
   {
@@ -19,11 +22,7 @@ export const router = createBrowserRouter([
       { path: "/plants", element: <Plants /> },
       {
         path: "/plants/:id",
-        element: (
-          <PrivateRoute>
-            <PlantDetails />
-          </PrivateRoute>
-        ),
+        element:  <PlantDetails />
       },
       {
         path: "/profile",
@@ -35,6 +34,9 @@ export const router = createBrowserRouter([
       },
       { path: "/login", element: <Login /> },
       { path: "/signup", element: <Signup /> },
-    ],
-  },
+      { path: "/support", element: <Support/> },
+      { path: "/contact", element: <Contact/> },
+      { path: "/about", element: <About/> }
+    ]
+  }
 ]);

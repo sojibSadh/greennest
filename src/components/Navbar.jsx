@@ -22,8 +22,8 @@ const Navbar = () => {
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "text-green-600 font-semibold"
-              : "hover:text-green-600"
+              ? "text-white font-semibold"
+              : "hover:text-white "
           }
         >
           Home
@@ -35,31 +35,70 @@ const Navbar = () => {
           to="/plants"
           className={({ isActive }) =>
             isActive
-              ? "text-green-600 font-semibold"
-              : "hover:text-green-600"
+             ? "text-white font-semibold"
+              : "hover:text-white "
           }
         >
           Plants
         </NavLink>
       </li>
 
+      {
+        user && <li>
+          <NavLink
+            to="/profile"
+            className={({ isActive }) =>
+              isActive
+                ? "text-white font-semibold"
+              : "hover:text-white "
+            }
+          >
+            My Profile
+          </NavLink>
+        </li>
+      }
       <li>
         <NavLink
-          to="/profile"
+          to="/support"
           className={({ isActive }) =>
             isActive
-              ? "text-green-600 font-semibold"
-              : "hover:text-green-600 "
+              ? "text-white font-semibold"
+              : "hover:text-white "
           }
         >
-          My Profile
+          Support
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive
+              ? "text-white font-semibold"
+              : "hover:text-white "
+          }
+        >
+          Contact
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive
+              ? "text-white font-semibold"
+              : "hover:text-white "
+          }
+        >
+          About
         </NavLink>
       </li>
     </>
   );
 
   return (
-    <div className="bg-white shadow-sm sticky top-0 z-50">
+    <div className="bg-linear-to-r to-[#0f0000] via-[#3e0001] from-[#0f0000]  shadow-sm sticky top-0 z-50">
       <div className="navbar container mx-auto flex justify-between items-center py-3 px-4">
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -68,12 +107,12 @@ const Navbar = () => {
             to="/"
             className="w-[100px]"
           >
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" className="rounded-full" />
           </Link>
         </div>
 
         {/* Nav Links */}
-        <ul className="hidden md:flex gap-8 items-center text-gray-700 font-bold">
+        <ul className="hidden md:flex gap-8 items-center text-gray-300 font-bold">
           {navLinks}
         </ul>
 

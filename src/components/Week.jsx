@@ -5,7 +5,7 @@ import { Link } from "react-router";
 const Week = () => {
 
   return (
-    <section className="py-16 px-6 md:px-16 bg-green-50 rounded-2xl shadow-inner mt-10">
+    <section className="bg-linear-to-r to-transparent from-[#171e33]/50  md:py-16 py-5 px-6 md:px-16 bg-green-50 rounded-2xl shadow-inner">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-orange-700">
           Plant of the Week 🌿
@@ -16,7 +16,7 @@ const Week = () => {
       </div>
 
       {/* Plant Card */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-10 bg-white p-8 rounded-2xl shadow-xl">
+      <div className="bg-linear-to-r to-transparent from-[#171e33]/70   flex flex-col md:flex-row items-center justify-center gap-10 bg-white p-8 rounded-2xl shadow-xl">
         {/* Image */}
         <img
           src={plant.image}
@@ -25,7 +25,7 @@ const Week = () => {
         />
 
         {/* Content */}
-        <div className="text-center md:text-left max-w-lg">
+        <div className="text-center md:text-left max-w-lg  ">
           <h3 className="text-2xl font-bold text-green-700 mb-2">
             {plant.name}
           </h3>

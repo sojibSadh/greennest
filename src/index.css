@@ -38,8 +38,12 @@ body {
     bottom: 0;
     border-radius: inherit;
     z-index: -1;
-    background: linear-gradient(        45deg,        #ff0000,   /* Red */            #002bff,   /* Blue */        #7a00ff,   /* Violet */        #ff00c8,   /* Magenta */        #ff0000    /* Red (for a seamless loop) */    );
+    background: linear-gradient(        45deg,        #575a68,   /* Red */            #575a68,   /* Blue */        #1d8e48,   /* Violet */        #671c12,   /* Magenta */        #42070b    /* Red (for a seamless loop) */    );
     background-size: 400% 400%;
     animation: gradient-animation 3s ease infinite;
     -webkit-animation: gradient-animation 3s ease infinite;
+}
+
+.title {
+    @apply md:text-4xl text-2xl font-bold text-orange-700
 }

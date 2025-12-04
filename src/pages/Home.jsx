@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
-import { motion } from "framer-motion";
 import { FaStar } from "react-icons/fa";
 import Hero from "../components/Hero";
 import Care from "../components/Care";
@@ -18,21 +17,21 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="space-y-20">
+    <div className="space-y-10">
 
       {/* Hero section */}
       <Hero></Hero>
 
       {/* Top Rated Indoor Plants  */}
-      <section className="w-full mx-auto px-4">
-        <h2 className="text-4xl font-bold text-orange-700 text-center mb-10">
+      <section className=" w-full mx-auto px-4">
+        <h2 className="title text-center md:mb-10 mb-5">
           Top Rated Indoor Plants 🌿
         </h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-8">
           {plants.map((plant) => (
             <div
               key={plant.plantId}
-              className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-lg transition border-2 hover:border-orange-700 border-transparent"
+              className="bg-gray-300 shadow-black-900 shadow-2xl rounded-2xl overflow-hidden hover:shadow-lg transition  hover:-translate-y-4"
             >
               <img
                 src={plant.image}
@@ -43,7 +42,7 @@ const Home = () => {
                 <h3 className="text-2xl text-center font-bold text-orange-900">
                   {plant.plantName}
                 </h3>
-                <h4 className="text-[20px] font-medium text-gray-600 text-center">{plant.title}</h4>
+                <h4 className="text-[16px] font-medium text-gray-600 text-center">{plant.title}</h4>
                 <div className="flex justify-between">
                   <span className="btn btn-outline btn-secondary inline-block p-2 px-2 rounded-2xl ">{plant.category}</span>
                   <span className="btn btn-outline btn-secondary inline-block p-2 px-2 rounded-2xl"> {plant.careLevel}</span>
@@ -57,9 +56,12 @@ const Home = () => {
 
                 <Link
                   to={`/plants/${plant.plantId}`}
-                  className="block mt-2 bg-linear-to-r from-green-500 to-orange-700 font-bold text-white text-center py-2 rounded-lg  transition-all duration-1000 ease-in-out
-             hover:from-orange-700 hover:to-green-500 hover:scale-102"
-                >
+                  className="
+  block mt-2 bg-linear-to-r from-green-500 to-orange-700
+  font-bold text-white text-center py-2 rounded-lg
+  transition duration-700 ease-in-out transform
+  hover:from-orange-700 hover:to-green-500
+">
                   View Details
                 </Link>
               </div>
@@ -69,13 +71,13 @@ const Home = () => {
       </section>
 
       {/*  Plant Care Tips */}
-      <Care> </Care>
+      <Care />
 
       {/* Experts */}
-      <Expert></Expert>
+      <Expert />
 
       {/* week Section */}
-      <Week> </Week>
+      <Week />
     </div>
   );
 };

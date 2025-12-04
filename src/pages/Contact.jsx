@@ -1,0 +1,12 @@
+import React from 'react'
+
+function Contact() {
+  return (
+    <div>
+    <h2 className='title text-center py-5'>Contact Us</h2>
+    <p className='text-black text-[18px] text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore odit incidunt temporibus culpa exercitationem harum obcaecati esse numquam, asperiores libero sed aliquam quasi cumque! Hic quibusdam repellendus dolorum impedit, qui explicabo eaque nisi officiis accusantium delectus sapiente architecto facilis fuga, labore expedita omnis perferendis quidem itaque error debitis eveniet consequuntur nulla! Aliquam animi rem in iure omnis error quidem laboriosam et facere explicabo fugiat repudiandae, consectetur tempore amet exercitationem sint, labore at, vitae porro earum illum eius doloremque inventore? Repellendus voluptatum temporibus alias laboriosam tempora, illum in suscipit officia odit praesentium reprehenderit molestias optio, quae nulla dolorum omnis rerum! Accusantium beatae veniam a odit voluptatibus soluta perferendis in ducimus blanditiis natus incidunt facilis dolorum, atque quis expedita quod hic, laboriosam commodi similique porro culpa iste eum! Possimus distinctio, temporibus ad sunt doloribus ab excepturi odio quae, nobis molestias, totam hic iure eaque labore ipsa tenetur quisquam magni adipisci amet harum! Libero fuga mollitia, repudiandae culpa assumenda accusamus exercitationem necessitatibus laboriosam magni earum tenetur eaque? Fugit vitae veritatis fugiat, velit cupiditate dicta rem fuga corporis nobis, distinctio unde porro enim voluptas, eaque quo! Quaerat quibusdam repellat illum iure, praesentium quam nulla corporis autem delectus sapiente odio dolores eius inventore similique explicabo incidunt eligendi totam distinctio animi minus alias dolorem iste? Praesentium tempora non tempore unde vel excepturi? Rem totam exercitationem omnis architecto? Ratione asperiores velit cum, non magnam nobis perspiciatis, alias deleniti sunt quas ullam, nisi reprehenderit incidunt iste obcaecati a impedit vitae ea fugit blanditiis modi illum veritatis fuga atque? Sit voluptates nostrum nemo perspiciatis pariatur explicabo doloribus atque? A, possimus quidem autem quo cum itaque mollitia, recusandae molestias, numquam corporis sed. Optio minima tempora vel iusto possimus, quia facere porro enim cumque assumenda id quae repellendus dolore veniam impedit ullam. Distinctio soluta maiores ullam error, pariatur nam nostrum obcaecati.</p>
+  </div>
+  )
+}
+
+export default Contact

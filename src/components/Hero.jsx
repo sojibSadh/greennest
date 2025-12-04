@@ -35,7 +35,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-[80vh] overflow-hidden rounded-2xl shadow-lg">
+    <section className="relative w-full h-[70vh] overflow-hidden rounded-2xl shadow-lg">
       <AnimatePresence>
         <motion.div
           key={slides[current].id}
@@ -59,7 +59,7 @@ const Hero = () => {
               initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl md:text-6xl font-bold mb-4"
+              className="text-gray-200 text-2xl md:text-6xl font-bold mb-4"
             >
               {slides[current].title}
             </motion.h2>
@@ -68,14 +68,14 @@ const Hero = () => {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.6 }}
-              className="text-lg md:text-2xl mb-6"
+              className="text-lg text-green-500 bg-black/60 rounded-full p-3 md:text-2xl mb-6"
             >
               {slides[current].subtitle}
             </motion.p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-orange-800 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold transition"
+              className="bg-green-800 hover:bg-green-600 text-white px-6 py-3 max-sm:text-sm rounded-full font-semibold transition"
             >
 
               <Link to={'/plants'}> Shope </Link>
